@@ -1,0 +1,48 @@
+#carousel{
+    position:relative;
+    height:192px;
+    width:342px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#carousel ul li {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    list-style-type: none;
+}
+
+ul{
+    display: block;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: blanchedalmond;
+    color: rebeccapurple;
+}
+a:hover {
+    background-color: khaki;
+    color: rebeccapurple;
+}
+
+.prev, .next{
+    position: relative;
+    top: 60%;
+    height: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.prev{
+    right: 75px;
+}
+
+.next{
+    left: 100px;
+}
